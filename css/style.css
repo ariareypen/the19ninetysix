@@ -11,7 +11,7 @@ main{
 header{
     width: 1366px;
     height: 200px;
-    background-color: #f3e9ce;
+    background-color: #ac7e5c;
     text-align: center;
 }
 header img{
@@ -20,7 +20,7 @@ header img{
 nav{
     width: 1366px;
     height: 50px;
-    background-color: #211A4C;
+    background-color: #27301f;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -37,19 +37,22 @@ nav a{
     /*line-height: 50px;*/
 }
 nav a:hover{
-    background-color: rgb(54, 49, 121);
+    background-color: #36422c;
     transform: scale(1.2);
 }
 section{
     width: 1366px;
     height: 1500px;
-    background-color: #f3e9ce;
-    background-image: url;
+    /*background-color: #f3e9ce;*/
+    background-image: url(../img/14bc1f404402365154af030b3f601abdebe74000.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .personaje{
     width: 1300px;
     height: 350px;
-    background-color: rgb(114, 24, 24);
+    /*background-color: rgb(114, 24, 24);*/
     margin-left: 33px;
     margin-top: 20px;
     float: left;
@@ -57,10 +60,11 @@ section{
 .foto{
     width: 400px;
     height: 350px;
-    background-color: rgb(3, 43, 78);
+    /*background-color: rgb(3, 43, 78);*/
     float: left;
     margin-left: 33px;
     text-align: center;
+    border-bottom: #917848 solid 4px;
 }
 .foto img{
     height: 100%;
@@ -68,16 +72,26 @@ section{
 .texto{
     width: 800px;
     height: 350px;
-    background-color: rgb(85, 126, 165);
+    background-color: #6c6352a1;
+
     float: left;
     margin-left: 33px;
     padding: 20px;
+    border-bottom: #917848 solid 4px;
 
+}
+.texto a{
+    color: #722f31;
+    text-decoration: none;
+    font-family: "Baskervville SC", serif;
+    font-size: large;
+}
+.texto a:hover{
+    color: #3c1714;
+    text-decoration: underline;
 }
 footer{
     width: 1366px;
     height: 250px;
-    background-color: #A51C2D;
+    background-color: #1c1f16;
 }
-
-
